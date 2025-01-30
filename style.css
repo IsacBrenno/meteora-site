@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*
+    Paleta de cores: #000000 Black
+    #CCCCCC Branco
+    #DAFF01 Amarelo
+    #9353FF LIlás
+*/
+.texto-menor{
+    font-size: 14px;
+}
+
+.divs-facilidades{
+   width: 325px;
+}
+
+@media screen and (max-width:992px){
+    .tamanho-letra{
+        font-size: 13px;
+    }
+}
+
+.sobre{
+    background-color: #9353FF;
+    border: none;
+}
+
+.sobre:hover{
+    background-color: #7a35f3;
+
+    transition: 0.3s;
+}
+.fundo-sobre{
+    color:  #DAFF01;
+}
+
+.botao-enviar{
+    background-color: #9353FF;
+    color: white;
+    border: none;
+}
+.botao-enviar:hover{
+    background-color: #7a35f3;
+
+    transition: 0.4s;
+}
+
+.posicao{
+    top: 40%;
+}
+
+@media screen and (max-width:767px){
+    .posicao{
+        top: 60%;
+    }
+}
+
+
+
